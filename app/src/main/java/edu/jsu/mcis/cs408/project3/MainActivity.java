@@ -31,8 +31,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(view);
 
         model = new ViewModelProvider(this).get(WebServiceDemoViewModel.class);
+        model.sendGetRequest();
 
         // Create Observer (to update the UI with response data)
+
 
         final Observer<JSONObject> jsonObserver = new Observer<JSONObject>() {
             @Override
