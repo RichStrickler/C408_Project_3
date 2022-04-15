@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Chat Client</string>
+    <string name="http_get">HTTP GET</string>
+    <string name="http_clear">CLEAR</string>
+    <string name="http_post">POST</string>
+    <string name="message_placeholder">Input Field</string>
+</resources>
